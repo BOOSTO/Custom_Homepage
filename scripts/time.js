@@ -3,7 +3,7 @@ function setTime(){
   var today = new Date();
 
   document.getElementById("hours").innerHTML = ((today.getHours() < 10)?"0":"") + today.getHours();
-  document.getElementById("mins").innerHTML = ((today.getMinutes() < 10)?"0":"") + today.getMinutes();
+  document.getElementById("mins").innerHTML = ((today.getMinutes() < 10)?"0":"") + today.getMinutes() + ":" + ((today.getSeconds() < 10)?"0":"") + today.getSeconds();
   document.getElementById("date").innerHTML = today.toDateString();
 
 }
