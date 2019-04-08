@@ -4,7 +4,7 @@ body, html {
 }
 
 .bg {
-  background-color: #090C0B;
+  background-color: #5EB9B3;
   background-image: url(../images/background.jpg);
 
   height: 100%;
@@ -18,7 +18,8 @@ body, html {
 }
 
 .welcome {
-  background-color: rgba(94, 185, 179, .5);
+  /* background-color: rgba(94, 185, 179, .5); */
+  background-image: linear-gradient(rgb(9, 12, 11) 30%,rgba(0,0,0,0));
 
   left: 0;
   width: 100%;
