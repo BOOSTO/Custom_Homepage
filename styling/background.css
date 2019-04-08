@@ -1,0 +1,31 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-color: #090C0B;
+  background-image: url(../images/background.jpg);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: futura;
+  color: white;
+}
+
+.welcome {
+  background-color: rgba(94, 185, 179, .5);
+
+  left: 0;
+  width: 100%;
+  top: 0%;
+  position: absolute;
+}
+
+.welcomeText {
+  text-align: center;
+}
